@@ -6,13 +6,13 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
-//        classpath 'com.android.tools.build:gradle:3.6.1'
+//        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:3.6.3'
 //        classpath "com.android.tools.build:gradle:4.0.1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // AOP-Aspectj
-        classpath "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.8"
+        classpath "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10"
 //        classpath "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10"
 
         // NOTE: Do not place your application dependencies here; they belong
